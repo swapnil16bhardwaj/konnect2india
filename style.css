@@ -1,0 +1,110 @@
+.navbar { background-color: #000000e0;; 
+    position:fixed;
+    z-index: 2;
+width: 100%;}
+.navbar .navbar-nav .nav-link { color: #fbc531; }
+.navbar .navbar-nav .nav-link:hover { color: #28a745; }
+.navbar .navbar-nav .active > .nav-link { color: #28a745; }
+
+footer a.text-light:hover { color: #fed136!important; text-decoration: none; }
+footer .cizgi { border-right: 1px solid #535e67; }
+.logo-img{
+    height: 65px;
+    width: 350px;
+}
+.footer-custom{
+    color: #000000 !important;
+}
+.homepage-navbarimage{
+
+    height: 500px;
+    background-repeat: no-repeat;
+    background-image: url(./assets/home.png);
+}
+.rcorners1 {
+    border-radius: 25px;
+    background: #0a75c9;
+    padding: 0px;
+    width: 250px;
+    height: 298px;
+  }
+
+  .card-text {
+    margin-bottom: 0;
+    color: #88e14d;
+    font-weight: 400;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;..");
+  }
+.head-text{
+    font-size: 25px;
+    color: #212121;
+    font-family: "Raleway", sans-serif;
+    padding: 240px 106px 11px 0px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    line-height: 31px;
+}
+.main-sec-text-2 {
+    font-size: 20px;
+    padding-bottom: 28px;
+    line-height: 1.7;
+    color: #373737;
+    font-family: "Raleway", sans-serif;}
+
+.custom-slider{
+    margin: 50px 150px;
+}
+.first-content{
+    background-color: rgb(7, 7, 7);
+    height:500px;
+    width:100%;
+}
+.first-content-image{
+    height:400px;
+    width:500px;
+    padding-left:60px;
+    padding-top:100px;
+}
+.second-content{
+    height:400px;
+    width:100px;
+}
+.Smartfruit{
+    font-size: 60px;
+    padding-top: 100px;
+    color: rgb(133 193 72);
+}
+.paragrphcolor{
+    color: rgb(12, 171, 245);
+}
+.thirdcontent{
+    font-size:30px;
+    padding-top:30px;
+    color:rgb(133 193 72);
+}
+.fourthcontent{
+    font-size: 15px;
+    color:rgb(133 193 72);
+}
+.ourclient{
+    font-size:40px;
+    color: rgb(12, 171, 245);
+}
+.paragraph1{
+    font-size:20px;
+    color:black;
+    margin-top:10px;
+}
+.cardcontent{
+    height:250px;
+    color:rgb(7, 7, 7);
+}
+.cardmargin{
+    margin-top:30px;
+    
+}
+ 
+    
+@media (max-width: 992px) { footer .cizgi { border-right: none; } }
